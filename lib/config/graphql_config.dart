@@ -3,7 +3,7 @@ import 'package:graphql_flutter/graphql_flutter.dart';
 
 class GraphQLConfig {
   static HttpLink httpLink = HttpLink(
-    'https://swapi-graphql.netlify.app/.netlify/functions/index',
+    'https://swapi-graphql.netlify.app/',
   );
 
   static ValueNotifier<GraphQLClient> clientToQuery() {

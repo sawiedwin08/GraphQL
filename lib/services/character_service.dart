@@ -11,13 +11,6 @@ class CharacterService {
       allPeople {
         people {
           name
-          height
-          mass
-          gender
-          homeworld {
-            name
-          }
-        }
       }
     }
   ''';

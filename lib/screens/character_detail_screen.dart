@@ -15,10 +15,12 @@ class CharacterDetailScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text('ID: ${character.id}'),
-            Text('Name: ${character.name}'),
-            Text('Birth Year: ${character.birthYear}'),
-            Text('Gender: ${character.gender}'),
+            Text('id: ${character.id}'),
+            Text('name: ${character.name}'),
+            // Text('height ${character.height}'),
+            // Text('mass: ${character.mass}'),
+            // Text('gender: ${character.gender}'),
+            // Text('homeworld: ${character.homeworld}'),
           ],
         ),
       ),
